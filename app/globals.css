@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #05080e;
+  color: #f4f2ee;
+}
+
+@layer utilities {
+  .font-bebas {
+    font-family: var(--font-bebas-neue), sans-serif;
+  }
+  .font-dm {
+    font-family: var(--font-dm-sans), system-ui, sans-serif;
+  }
+  .font-space {
+    font-family: var(--font-space-mono), monospace;
+  }
+  .grid-overlay {
+    background-image: linear-gradient(rgba(64, 179, 162, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(64, 179, 162, 0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+  .leading-display {
+    line-height: 0.9;
+  }
+}
