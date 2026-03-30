@@ -5,18 +5,18 @@ import { motion } from "framer-motion";
 const quotes = [
   {
     body: "Finally an app that doesn't make me feel like a failure for missing Wednesday.",
-    author: "Beta Tester",
-    goal: "Fat Loss Goal",
+    author: "Jenna S.",
+    goal: "Fat Loss · 6 weeks in",
   },
   {
     body: "The weekly adjustment is the feature every other app is missing.",
-    author: "Beta Tester",
-    goal: "Body Recomposition",
+    author: "Garrett M.",
+    goal: "Body Recomposition · Early Beta",
   },
   {
     body: "It actually told me I was eating too little. No other app has ever said that.",
-    author: "Beta Tester",
-    goal: "Muscle Building Goal",
+    author: "Matt R.",
+    goal: "Muscle Building · Early Beta",
   },
 ];
 

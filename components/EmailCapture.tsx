@@ -200,6 +200,9 @@ export function EmailCapture() {
               <p className="font-dm text-xs" style={{ color: "rgba(138,149,160,0.6)" }}>
                 Free · iOS · No spam. Ever.
               </p>
+              <p className="font-dm text-xs mt-1" style={{ color: "rgba(138,149,160,0.45)" }}>
+                We send invites in batches. Early users help shape V2.
+              </p>
             </form>
           )}
 

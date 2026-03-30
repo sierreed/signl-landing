@@ -65,7 +65,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, ease: EASE_OUT, delay: 0.3 }}
-          className="font-dm mb-10 max-w-xl mx-auto"
+          className="font-dm mb-3 max-w-xl mx-auto"
           style={{
             fontSize: "clamp(18px, 2.5vw, 24px)",
             color: "#8A95A0",
@@ -75,6 +75,21 @@ export function Hero() {
           Most apps record your data.
           <br />
           Signl interprets it.
+        </motion.p>
+
+        {/* Who it's for */}
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: EASE_OUT, delay: 0.38 }}
+          className="font-dm mb-10 max-w-2xl mx-auto"
+          style={{
+            fontSize: "clamp(13px, 1.8vw, 16px)",
+            color: "#8A95A0",
+            lineHeight: 1.6,
+          }}
+        >
+          Built for people trying to lose fat, build muscle, or finally understand why progress stalled.
         </motion.p>
 
         {/* CTAs */}
@@ -119,7 +134,7 @@ export function Hero() {
           className="font-dm"
           style={{ fontSize: 12, color: "#8A95A0" }}
         >
-          Free · iOS · TestFlight · Your metabolism. Not an average. Not a guess.
+          Free · iOS · TestFlight · Request access. We send invites in batches. Early users shape the product.
         </motion.p>
       </div>
 

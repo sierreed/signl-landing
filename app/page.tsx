@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { Problem } from "@/components/Problem";
 import { Solution } from "@/components/Solution";
 import { HowItWorks } from "@/components/HowItWorks";
+import { WhoItsFor } from "@/components/WhoItsFor";
 import { Differentiators } from "@/components/Differentiators";
 import { NoShame } from "@/components/NoShame";
 import { SocialProof } from "@/components/SocialProof";
@@ -19,6 +20,7 @@ export default function Home() {
       <Problem />
       <Solution />
       <HowItWorks />
+      <WhoItsFor />
       <Differentiators />
       <NoShame />
       <SocialProof />

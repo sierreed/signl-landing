@@ -129,6 +129,40 @@ export function Solution() {
                 </motion.div>
               ))}
             </motion.div>
+
+            {/* Example weekly signal card */}
+            <motion.div
+              initial={{ opacity: 0, y: 16 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, ease: [0.4, 0, 0.2, 1] as const, delay: 0.35 }}
+              className="mt-6 rounded-xl p-4"
+              style={{
+                backgroundColor: "rgba(255,255,255,0.025)",
+                borderTop: "1px solid rgba(64,179,162,0.15)",
+                borderRight: "1px solid rgba(64,179,162,0.15)",
+                borderBottom: "1px solid rgba(64,179,162,0.15)",
+                borderLeft: "3px solid #40B3A2",
+              }}
+            >
+              <p
+                className="font-space text-xs tracking-[0.18em] mb-3"
+                style={{ color: "#40B3A2" }}
+              >
+                EXAMPLE WEEKLY SIGNAL
+              </p>
+              <p
+                className="font-space text-xs leading-relaxed"
+                style={{ color: "#8A95A0" }}
+              >
+                Logged 5 of 7 days. Weight held flat. Intake averaged 340 kcal
+                below target. Recovery trending low.
+                <br />
+                <span style={{ color: "#40B3A2" }}>→ Signl recommendation: Increase by 100 kcal/day this week.</span>
+                <br />
+                <span style={{ color: "#40B3A2" }}>→ Confidence: HIGH</span>
+              </p>
+            </motion.div>
           </div>
 
           {/* Right: Phone frame */}
