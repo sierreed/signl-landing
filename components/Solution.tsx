@@ -137,14 +137,14 @@ export function Solution() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7, ease: [0.4, 0, 0.2, 1] as const, delay: 0.15 }}
-            className="flex justify-center lg:justify-end"
+            className="flex justify-center lg:justify-end overflow-hidden"
           >
             <PhoneFrame
               src="/images/weekly-review.png"
               alt="Weekly Adjustment card showing increase 100 kcal/day recommendation"
-              width={364}
-              height={1105}
-              objectPosition="center 55%"
+              width={300}
+              height={620}
+              objectPosition="top"
             />
           </motion.div>
         </div>
