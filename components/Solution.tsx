@@ -21,7 +21,7 @@ const features = [
 export function Solution() {
   return (
     <section
-      className="relative py-28 px-6 overflow-hidden"
+      className="relative py-20 px-6 overflow-hidden"
       style={{ backgroundColor: "#05080E" }}
     >
       {/* Subtle teal glow */}
@@ -141,9 +141,10 @@ export function Solution() {
           >
             <PhoneFrame
               src="/images/weekly-review.png"
-              alt="Weekly Review screen showing body composition adjustment"
-              width={280}
-              height={607}
+              alt="Weekly Adjustment card showing increase 100 kcal/day recommendation"
+              width={364}
+              height={1105}
+              objectPosition="center 55%"
             />
           </motion.div>
         </div>

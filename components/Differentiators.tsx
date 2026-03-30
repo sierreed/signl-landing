@@ -29,7 +29,7 @@ const rows = [
 export function Differentiators() {
   return (
     <section
-      className="relative py-28 px-6 overflow-hidden"
+      className="relative py-20 px-6 overflow-hidden"
       style={{ backgroundColor: "#05080E" }}
     >
       <div className="relative z-10 max-w-[1200px] mx-auto">

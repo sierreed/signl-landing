@@ -6,7 +6,7 @@ import { PhoneFrame } from "./PhoneFrame";
 export function NoShame() {
   return (
     <section
-      className="relative py-28 px-6 overflow-hidden"
+      className="relative py-20 px-6 overflow-hidden"
       style={{ backgroundColor: "#05080E" }}
     >
       {/* Teal glow */}
@@ -29,8 +29,8 @@ export function NoShame() {
             className="flex justify-center lg:justify-start order-2 lg:order-1"
           >
             <PhoneFrame
-              src="/images/week-tracker.png"
-              alt="Week tracker showing missed days with no guilt"
+              src="/images/add-intake.png"
+              alt="Add intake screen showing quick meal logging"
               width={270}
               height={585}
             />

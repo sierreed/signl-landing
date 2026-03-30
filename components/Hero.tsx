@@ -20,7 +20,7 @@ export function Hero() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse 80% 60% at 50% 50%, rgba(64,179,162,0.13) 0%, transparent 70%)",
+            "radial-gradient(ellipse 80% 60% at 50% 50%, rgba(64,179,162,0.26) 0%, transparent 70%)",
         }}
       />
 

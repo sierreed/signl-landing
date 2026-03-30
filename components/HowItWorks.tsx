@@ -47,7 +47,7 @@ const steps = [
 export function HowItWorks() {
   return (
     <section
-      className="relative py-28 px-6 overflow-hidden"
+      className="relative py-20 px-6 overflow-hidden"
       style={{ backgroundColor: "#05080E" }}
     >
       <div
@@ -80,9 +80,9 @@ export function HowItWorks() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.55, ease: [0.4, 0, 0.2, 1] as const, delay: 0.1 }}
-          className="font-dm font-bold mb-20"
+          className="font-bebas leading-display mb-20"
           style={{
-            fontSize: "clamp(28px, 4vw, 44px)",
+            fontSize: "clamp(42px, 6vw, 72px)",
             color: "#F4F2EE",
           }}
         >

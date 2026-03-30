@@ -10,6 +10,7 @@ interface PhoneFrameProps {
   height?: number;
   priority?: boolean;
   label?: string;
+  objectPosition?: string;
 }
 
 export function PhoneFrame({
@@ -19,6 +20,7 @@ export function PhoneFrame({
   height = 585,
   priority = false,
   label,
+  objectPosition = "top",
 }: PhoneFrameProps) {
   const [imgError, setImgError] = useState(false);
 
@@ -72,7 +74,8 @@ export function PhoneFrame({
             src={src}
             alt={alt}
             fill
-            className="object-cover object-top"
+            className="object-cover"
+            style={{ objectPosition }}
             priority={priority}
             onError={() => setImgError(true)}
           />

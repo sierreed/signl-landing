@@ -48,7 +48,7 @@ export function EmailCapture() {
   return (
     <section
       id="beta-signup"
-      className="relative py-28 px-6 overflow-hidden"
+      className="relative py-20 px-6 overflow-hidden"
       style={{ backgroundColor: "#05080E" }}
     >
       {/* Radial glow */}
@@ -56,7 +56,7 @@ export function EmailCapture() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            "radial-gradient(ellipse 60% 60% at 50% 50%, rgba(64,179,162,0.18) 0%, transparent 65%)",
+            "radial-gradient(ellipse 60% 60% at 50% 50%, rgba(64,179,162,0.32) 0%, transparent 65%)",
         }}
       />
 

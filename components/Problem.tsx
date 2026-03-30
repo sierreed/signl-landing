@@ -33,7 +33,7 @@ const cardVariants = {
 export function Problem() {
   return (
     <section
-      className="relative py-28 px-6 overflow-hidden"
+      className="relative py-20 px-6 overflow-hidden"
       style={{ backgroundColor: "#05080E" }}
     >
       {/* Red gradient bleed from top-left */}
