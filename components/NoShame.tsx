@@ -29,8 +29,8 @@ export function NoShame() {
             className="flex justify-center lg:justify-start order-2 lg:order-1"
           >
             <PhoneFrame
-              src="/images/add-intake.png"
-              alt="Add intake screen showing quick meal logging"
+              src="/images/week-tracker.png"
+              alt="Week tracker showing missed days with no guilt"
               width={270}
               height={585}
             />
