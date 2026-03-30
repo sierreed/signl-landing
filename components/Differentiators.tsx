@@ -17,7 +17,7 @@ const rows = [
     signl: "Missed days are data, not failure",
   },
   {
-    other: "Barcode scanning a banana",
+    other: "Searching 'Banana' and seeing 400 options",
     signl: "Describe your meal. Done.",
   },
   {

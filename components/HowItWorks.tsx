@@ -156,6 +156,14 @@ export function HowItWorks() {
                 >
                   {step.body}
                 </p>
+                {step.num === "01" && (
+                  <p
+                    className="font-space text-xs mt-2"
+                    style={{ color: "#40B3A2" }}
+                  >
+                    Log in 5 seconds.
+                  </p>
+                )}
               </motion.div>
             ))}
           </motion.div>

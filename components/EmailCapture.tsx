@@ -201,7 +201,7 @@ export function EmailCapture() {
                 Free · iOS · No spam. Ever.
               </p>
               <p className="font-dm text-xs mt-1" style={{ color: "rgba(138,149,160,0.45)" }}>
-                We send invites in batches. Early users help shape V2.
+                We&apos;re onboarding iPhone users through TestFlight in small batches. Early users shape the product.
               </p>
             </form>
           )}
